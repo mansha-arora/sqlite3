@@ -14,8 +14,8 @@ c=conn.cursor()
 #            pay integer
 #            )""")
 #conn.commit()
-c.execute("INSERT INTO employees VALUES ('Corey','Schafer',50000)")
-c.execute("SELECT * FROM employees WHERE last='Schafer'")
+c.execute("INSERT INTO employees VALUES ('Masoud','Kheradmandi',50000)")
+c.execute("SELECT * FROM employees WHERE last='Kheradmandi'")
 print(c.fetchone())
 conn.commit()
 
